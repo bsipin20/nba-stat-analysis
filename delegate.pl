@@ -34,25 +34,19 @@ use warnings;
 #   Shooting Percentages are displayed over time
 
 
-sub main
-{
-    #Command line interface for NBA shooting statistics
-    
-    # need in this order (<name of directory where raw data resides>,<year>,<team>,<player>,<type of analysis>)
+
+# need in this order (<name of directory where raw data resides>,<year>,<team>,<player>,<type of analysis>)
     # for <year>,<team>,<player> can put "all or specific player"
     # <team> requires team codes, not full team names 
-    # For reference:
-    # (https://en.wikipedia.org/wiki/Wikipedia:WikiProject_National_Basketball_Association/ _
-    # National_Basketball_Association_team_abbreviations) 
-    # example: BOS, ATL, DAL equate to Boston Celtics, Atlanta Hawks, Dallas Mavericks
-    Controller::request("data","all","BOS","all","shooting_percentages");
+        # For reference:
+            # (https://en.wikipedia.org/wiki/Wikipedia:WikiProject_National_Basketball_Association/ _
+            # National_Basketball_Association_team_abbreviations) 
+            # example: BOS, ATL, DAL equate to Boston Celtics, Atlanta Hawks, Dallas Mavericks
+Controller::request("data","all","BOS","all","shooting_percentages");
 
-    #other call examples
-    #    Controller::request("data","all","BOS","Paul Pierce","shooting_percentages");
-    #    Controller::request("data","2007","ATL","Joe Johnson","side_of_court");
+#other call examples
+#Controller::request("data","all","BOS","Paul Pierce","shooting_percentages");
+#Controller::request("data","2007","ATL","Joe Johnson","side_of_court");
 
 
 
-}
-
-main();
