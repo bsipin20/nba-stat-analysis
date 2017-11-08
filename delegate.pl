@@ -35,7 +35,7 @@ use warnings;
 
 
 
-# need in this order (<name of directory where raw data resides>,<year>,<team>,<player>,<type of analysis>)
+# ARGUMENTS FOR Controller::request(<name of directory where raw data resides>,<year>,<team>,<player>,<type of analysis>)
     # for <year>,<team>,<player> can put "all or specific player"
     # <team> requires team codes, not full team names 
         # For reference:
