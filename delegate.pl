@@ -47,6 +47,12 @@ sub main
     # example: BOS, ATL, DAL equate to Boston Celtics, Atlanta Hawks, Dallas Mavericks
     Controller::request("data","all","BOS","all","shooting_percentages");
 
+    #other call examples
+    #    Controller::request("data","all","BOS","Paul Pierce","shooting_percentages");
+    #    Controller::request("data","2007","ATL","Joe Johnson","side_of_court");
+
+
+
 }
 
 main();
