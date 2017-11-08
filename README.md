@@ -7,6 +7,7 @@ User can choose to analyze shot tracking data by player,team,year and type of an
 All analysis outputs to terminal
 
 The three types of analysis are:
+
 	shooting percentage : how well does a team or player shoot
 
 	side of court : which side of court and with what success does the player or team shoot from
